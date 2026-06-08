@@ -623,3 +623,4 @@ void mostrarMenuInicio(ConfigCarrera *cfg) {
     if (op == 2) cfg->velocidadSimulacion = 200;
     if (op == 3) { free(NULL); exit(0); }
 }
+
